@@ -5,7 +5,8 @@
       <el-container>
         <el-aside class="el-aside" width="20vw">
           <el-menu router="true" class="el-menu">
-            <el-menu-item route="/clipboard" index="1"> clipboard </el-menu-item>
+            <el-menu-item route="/" index="1"> ServerInfo </el-menu-item>
+            <el-menu-item route="/clipboard" index="2"> clipboard </el-menu-item>
 <!--             <el-menu-item route="/test" index="4"> test </el-menu-item>-->
           </el-menu>
         </el-aside>
