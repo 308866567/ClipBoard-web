@@ -109,7 +109,7 @@ const handleDeleteItem = async (field: string) => {
     // 4. 处理 API 调用失败的情况
     const errorMessage =
       error instanceof Error ? error.message : "未知错误，删除失败。";
-    ElMessage.error(`❌ 删除失败: ${errorMessage}`);
+    ElMessage.error(`删除失败: ${errorMessage}`);
   }
 };
 </script>

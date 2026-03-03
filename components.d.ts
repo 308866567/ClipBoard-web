@@ -16,11 +16,16 @@ declare module 'vue' {
     ElDivider: typeof import('element-plus/es')['ElDivider']
     ElHeader: typeof import('element-plus/es')['ElHeader']
     ElInput: typeof import('element-plus/es')['ElInput']
+    ElLink: typeof import('element-plus/es')['ElLink']
     ElMain: typeof import('element-plus/es')['ElMain']
     ElMenu: typeof import('element-plus/es')['ElMenu']
     ElMenuItem: typeof import('element-plus/es')['ElMenuItem']
+    ElTable: typeof import('element-plus/es')['ElTable']
+    ElTableColumn: typeof import('element-plus/es')['ElTableColumn']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    ServerInfo: typeof import('./src/components/ServerInfo/ServerInfo.vue')['default']
+    ServiceTable: typeof import('./src/components/ServerInfo/ServiceTable.vue')['default']
     Test: typeof import('./src/components/test.vue')['default']
   }
 }
